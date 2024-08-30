@@ -309,22 +309,8 @@ while var:
                                    except Exception as er:
                                              print(er)
                                              continue
-                            elif 'CHAHAT' in name3 or 'CHACHA' in name3 or 'CHAND' in name3 and 'BIRTHDAY' in name3:
-                                  playsound('tones_for_roma\\chahat_bday.mp3')
-                            elif 'JYOTI' in name3 and 'BIRTHDAY' in name3:
-                                  playsound('tones_for_roma\\jyoti_bday.mp3')
                             elif 'AJAY' in name3 and 'BIRTHDAY' in name3:
                                   playsound('tones_for_roma\\my_bday.mp3')
-                            elif 'TUSHAR' in name3 and 'BIRTHDAY' in name3:
-                                  ts(text='August 30th')
-                            elif 'SHASHANK' in name3 and 'BIRTHDAY' in name3:
-                                  ts(text='July 24th')
-                            elif 'NISHU' in name3 and 'BIRTHDAY' in name3:
-                                  ts(text='June 4th')
-                            elif 'KRISHU' in name3 and 'BIRTHDAY' in name3:
-                                  ts(text='February 2nd')
-                            elif 'NEHA' in name3 and 'BIRTHDAY' in name3:
-                                  ts(text='March 9th')
                             elif 'GO' in name3 or 'TERMINATE' in name3 or 'SLEEP' in name3 or 'BYE' in name3 or 'BYE-BYE' in name3 or 'BHAG' in name3:
                                   text='Bye Bye Sir! See you again!'
                                   ts(text)
